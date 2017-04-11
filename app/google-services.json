@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "797844977537",
+    "firebase_url": "https://genithub-43c5d.firebaseio.com",
+    "project_id": "genithub-43c5d",
+    "storage_bucket": "genithub-43c5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797844977537:android:b237c08aee22c818",
+        "android_client_info": {
+          "package_name": "com.genithub.app.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797844977537-oemrsluivjhumu18bvl4ndqg9a2ggsnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaDeiofmJK8LeLlz8ot_CABBC6KJM80iE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
