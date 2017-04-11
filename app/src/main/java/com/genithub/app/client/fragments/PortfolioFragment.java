@@ -59,8 +59,9 @@ public class PortfolioFragment extends android.support.v4.app.Fragment {
         mPortfolioRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                //Log.e("manav", "onDataChange: " + dataSnapshot.getValue().toString() );
+
 //                portfolioArrayList = (ArrayList<Portfolio>) dataSnapshot.getValue();
+//                Log.e("manav", "onDataChange: " + portfolioArrayList.size());
                 for (DataSnapshot d :
                         dataSnapshot.getChildren()) {
                     Map<String, String> map = (Map<String, String>) d.getValue();
